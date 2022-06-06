@@ -5,7 +5,7 @@ tam_disco = 200
 def CSCAN(arr, cabeçote):
 
     cont_buscas = 0
-    distance = 0
+    distancia = 0
     trilha_atual = 0
     esquerda = []
     direita = []
@@ -28,9 +28,9 @@ def CSCAN(arr, cabeçote):
 
         sequencia_de_busca.append(trilha_atual)
 
-        distance = abs(trilha_atual - cabeçote)
+        distancia = abs(trilha_atual - cabeçote)
 
-        cont_buscas += distance
+        cont_buscas += distancia
 
         cabeçote = trilha_atual
 
@@ -43,9 +43,9 @@ def CSCAN(arr, cabeçote):
 
         sequencia_de_busca.append(trilha_atual)
 
-        distance = abs(trilha_atual - cabeçote)
+        distancia = abs(trilha_atual - cabeçote)
 
-        cont_buscas += distance
+        cont_buscas += distancia
 
         cabeçote = trilha_atual
 
